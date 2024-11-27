@@ -1,0 +1,121 @@
+<head></head> - Mente do site, parte que não vai ser visível para o usuário
+<body></body> - Corpo do site, a base
+<h1> a <h6> - Tamanho do texto
+<title></title> - Título do site
+<meta> - Para que funcione em qualquer plataforma e para seguir a linguagem corretamente com todas as acentuações
+<html></html> - Linguagem do site 
+<p></p> - Define os parágrafos do nosso site
+<ul></ul> - Vai definir uma lista não ordenada
+<ol></ol> - Define uma lista ordenada por números 
+<li></li> - Define os itens da lista (tanto o <ul> quanto o <ol>)
+<ing></ing> - Para utilizar imagens
+<br> - Definir uma quebra de linha dentro do texto (um espaçamento entre linhas)
+<hr> - Inserir uma linha
+<i></i> - Coloca o texto em ITÁLICO
+<b></b> - Coloca o texto em NEGRITO
+<u></u> - Sublinha da palavra ou do texto
+<del></del> Traça uma linha no meio da palavra/risca a palavra
+<table> <!--CRIA UMA TABELA-->
+<tr> <!--CRIA AS COLUNAS-->
+<th>Frutas</th> <!--CRIA OS TITULOS DA COLUNA-->
+<td>Morango</td> <!--INSERE OS CONTEUDOS NAS COLUNAS-->  
+<iframe src=""></iframe> <!--Rodar outra página do seu site--> <!--Rodar outro site dentro da página--> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o17EjWGHYBo?si=bXEGOxAJGbqc3VUm"
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Rodar um vídeo do youtube - incorporar-->
+<form> <!-- CRIA UM FORMULÁRIO-->
+        <label for="nome">Nome:</label>
+        <input type="text" placeholder="Digite seu nome" id="nome" required>
+        <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" placeholder="Digite sua senha" id="senha" required>
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="Digite seu E-mail" id="email" required>
+        <input type="submit" value="Enviar formulário">
+</form>
+
+
+    <body>
+        <div class="cabeçalho">
+            <h1>CABEÇALHO</h1>
+            <p>Aqui é o topo</p>
+        </div>
+    <div class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="formulario.html">Login</a>
+    <a href="outrapágina.html">Itens</a>
+    <a href="div1.html">Div</a>
+    </div>
+    
+    <div class="texto">
+    <h2>Texto 1</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium explicabo, sint eligendi reiciendis aperiam dolores. Obcaecati illum ratione saepe earum assumenda, nemo labore eveniet nam praesentium culpa dolorem quod doloribus?</p>
+    </div>
+    
+    <div class="texto">
+    <h2>Texto 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis itaque, non perspiciatis distinctio doloremque, obcaecati neque ratione facere, quis minima in iure possimus quam cum. Eveniet at rerum repellat quo?</p>
+    </div>
+    
+    
+    </body>
+    </html>
+
+    <style> <!--CSS INTERNO-->
+        .cabeçalho{
+            background-color: rgb(211, 176, 245);
+        }
+        .menu{
+            background-color: rgb(41, 0, 80);
+            overflow: hidden;
+        }
+        .menu a{
+            color: white;
+            padding: 24px 20px;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .seção{
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+    </style>
+    
+
+float: left; <!-- Faz o elemento flutuar à esquerda -->
+
+width: 50%; <!-- Define a largura do elemento como 50%-->
+
+padding: 10px; <!-- Adiciona 10 pixels de preenchimento em 
+todas as direções -->
+
+color: white; <!-- Define a cor do texto como branco -->
+padding: 24px 20px; <!-- Define o preenchimento superior e 
+inferior como 24px e lateral como 20px -->
+
+float: left; <!-- Faz o elemento flutuar à esquerda (repetido) -->
+
+display: block; <!-- Exibe o elemento como um bloco, ocupando toda a 
+largura disponível -->
+
+text-decoration: none; <!-- Remove qualquer decoração de texto, como 
+sublinhado -->
+
+overflow: hidden; <!-- Oculta qualquer conteúdo que exceda as 
+dimensões do elemento -->
+
+
+border: solid, <!--VAI SER UMA BORDA SOLIDA-->
+border: dashed, <!--VAI SER UMA BORDA PONTILHADA-->
+border: double, <!--VAI SER UMA BORDA DUPLA-->
+border: dotted, <!--VAI SER UMA BORDA PONTILHADA-->
+Display
+tipo inline - configura o display da tag em linhas
+tipo block - configura o display da tag em bloco 
+tipo none - configura nossa tag sem display 
+tipo inline-block - configura nossa tag com as prorpiedades dos dois tipos de display

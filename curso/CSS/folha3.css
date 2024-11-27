@@ -1,0 +1,33 @@
+.container{
+    border: 1px solid rgb(7, 138, 39);
+    overflow:auto;
+}
+.container img{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:50px
+}
+ul{
+    background: rgb(4, 0, 206);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    float:left ;
+}
+li a{
+    display: inline-block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    color: aqua;
+}
+body{
+    background-image: linear-gradient( dodgerblue, azure, rgb(109, 255, 146));
+}
